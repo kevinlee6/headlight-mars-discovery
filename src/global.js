@@ -1,1 +1,2 @@
-export const url = 'https://headlight-tournament-3.herokuapp.com/bots';
+export const url = endpoint =>
+  `https://headlight-tournament-3.herokuapp.com/${endpoint}`;
