@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bot } from '../helper';
+import { Bot } from '../../helper';
 
 export const Bots = props => (
   <div className='bots'>
@@ -11,7 +11,7 @@ export const Bots = props => (
                 top = location.Y,
                 left = location.X;
 
-          return Bots(id, top, left);
+          return Bot(id, top, left);
         }
       )
     }

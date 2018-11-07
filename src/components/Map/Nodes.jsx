@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { url, Node } from '../helper';
+import { url, Node } from '../../helper';
 
 export default class Nodes extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { url } from '../helper';
-import { Info } from './Info'; 
-import { Map } from './Map';
+import { Info } from './Info/Info'; 
+import { Map } from './Map/Map';
 
 export default class Container extends Component {
   constructor() {
