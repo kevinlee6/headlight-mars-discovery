@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { url } from '../global';
+import { url } from '../helper';
 import { Info } from './Info'; 
 import { Map } from './Map';
 
