@@ -30,3 +30,7 @@ Writing this README takes time as well, so I had to forgo code clean up and refi
 ## Future goals
 
 In the future, I would make the graphics slightly more flashy/modern rather than a plain red box to illustrate nodes and blue circles for bots. I would also better organize the structure of the app/directory to make it easier to navigate.
+
+I would also refactor my code and not use absolute positioning when possible. Currently my legend uses absolute positioning, and it causes it to overlap at certain device sizes, such as 4k displays.
+
+In addition, I would make more data available such as Node ID as a hoverable tooltip. This ties into making the app more interactive.
