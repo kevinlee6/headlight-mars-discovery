@@ -1,0 +1,15 @@
+.map {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  max-width: 90vw;
+  background-color: rgba(234, 234, 234, 0.5);
+  justify-content: center;
+  border-radius: 20px;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+}
