@@ -1,6 +1,6 @@
-# [Headlight's Mars Discovery]()
+# [Headlight's Mars Discovery](https://headlight-mars-discovery.herokuapp.com/)
 
-![Sample page of the Mars Discovery app]()
+![Sample page of the Mars Discovery app](./public/sample/png)
 
 ## Features
 
