@@ -1,6 +1,6 @@
 import React from 'react';
 import { Scores } from './Scores';
-import { url } from '../global';
+import { url } from '../helper';
 
 export const Info = props => (
   <div>

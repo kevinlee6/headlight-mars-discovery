@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { url } from '../helper';
 
 export default class Nodes extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ export default class Nodes extends Component {
   }
 
   getNodes = () => {
-    fetch(url)
+    fetch(url('nodes'))
       .then(res => res.json())
       .then(res => {
         const nodes = res.Nodes
