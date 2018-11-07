@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { url } from '../helper';
+import { url, Node } from '../helper';
 
 export default class Nodes extends Component {
   constructor(props) {
@@ -35,7 +35,19 @@ export default class Nodes extends Component {
   render() {
     return (
       <div className='nodes'>
+        {
+          this.state.nodes.map(
+            node => {
+              const location = node.Location;
+              const id = node.Id,
+                    top = location.X,
+                    left = location.Y,
+                    value = node.Value;
 
+              return Node(id, top, left, value);
+            }
+          )
+        }
       </div>
     );
   }
