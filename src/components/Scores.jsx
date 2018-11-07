@@ -1,7 +1,7 @@
 import React from 'react';
 import { TableBody } from './TableBody';
 
-export const Scores = props => {
+export const Scores = props => (
   <table className='table table-hover'>
     <thead>
       <tr>
@@ -9,6 +9,6 @@ export const Scores = props => {
         <th>Score</th>
       </tr>
     </thead>
-    <TableBody bots={prop.bots} />
+    <TableBody bots={props.bots} />
   </table>
-}
+)

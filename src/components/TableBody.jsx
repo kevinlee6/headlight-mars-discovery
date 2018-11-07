@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Tablebody = props => (
+export const TableBody = props => (
   <tbody>
     {
       props.bots.map(bot =>
