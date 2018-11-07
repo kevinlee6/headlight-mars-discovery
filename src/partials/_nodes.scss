@@ -1,0 +1,18 @@
+.nodes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.node {
+  position: inherit;
+  background-color: rgba(180, 0, 0, 0.9);
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(222, 222, 222);
+}
