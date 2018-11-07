@@ -1,0 +1,1 @@
+export const url = 'https://headlight-tournament-3.herokuapp.com/bots';
