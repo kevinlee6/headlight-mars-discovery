@@ -20,7 +20,7 @@ export default class Container extends Component {
   }
 
   callBots = () => {
-    fetch(url)
+    fetch(url('bots'))
       .then(res => res.json())
       .then(res => {
         const bots = res.Bots
@@ -36,7 +36,7 @@ export default class Container extends Component {
 
   render() {
     return (
-      <div>
+      <div className='content-container row'>
         <Info bots={this.state.bots} />
         <Map bots={this.state.bots} />
       </div>
