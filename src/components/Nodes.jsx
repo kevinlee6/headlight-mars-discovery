@@ -5,7 +5,7 @@ export default class Nodes extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      nodes: [],
     };
   }
 
