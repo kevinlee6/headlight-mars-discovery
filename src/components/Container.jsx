@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { url } from './global';
+import { url } from '../global';
+import { Info } from './Info'; 
+import { Map } from './Map';
 
 export default class Container extends Component {
   constructor() {
@@ -7,6 +9,14 @@ export default class Container extends Component {
     this.state = {
       bots: [],
     };
+  }
+
+  componentDidMount = () => {
+    setInterval(this.callBots, 1000);
+  }
+
+  componentWillUnmount = () => {
+    clearInterval(this.callBots);
   }
 
   callBots = () => {
@@ -27,7 +37,8 @@ export default class Container extends Component {
   render() {
     return (
       <div>
-
+        <Info bots={this.state.bots} />
+        <Map bots={this.state.bots} />
       </div>
     );
   }
